@@ -1,4 +1,3 @@
-import React from "react";
 import "./GreetingComponent.scss";
 
 interface GreetingProps {
