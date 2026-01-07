@@ -1,12 +1,14 @@
 import "./App.css";
-import { GreetingComponent } from "./components/GreetingComponent";
+
+import { HeaderComponent } from "./components/HeaderComponent";
 
 function App() {
   return (
     <>
-      <GreetingComponent name="Mathias" />
+      <HeaderComponent headerText="Props er cool" />
+      {/* <GreetingComponent name="Mathias" />
       <GreetingComponent name="Anna" />
-      <GreetingComponent name="Sofie" />
+      <GreetingComponent name="Sofie" /> */}
     </>
   );
 }
