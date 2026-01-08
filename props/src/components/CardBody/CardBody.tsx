@@ -1,3 +1,5 @@
+import "./CardBody.scss";
+
 interface CardBodyProps {
   content?: string;
 }

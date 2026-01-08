@@ -1,3 +1,5 @@
+import "./CardHeader.scss";
+
 interface CardHeaderProps {
   text?: string;
 }

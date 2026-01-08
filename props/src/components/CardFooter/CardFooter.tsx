@@ -1,3 +1,5 @@
+import "./CardFooter.scss";
+
 interface CardFooterProps {
   content?: string;
 }
